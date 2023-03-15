@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var state = 0
     @ObservedObject var viewModel = CookingInfoViewModel()
     
     var body: some View {
